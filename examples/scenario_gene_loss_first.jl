@@ -8,7 +8,7 @@ println(summarize_genome(genome))
 simulate!(
     genome;
     steps = 20,
-    base_loss_rate = 0.15,
+    base_loss_rate = 0.01,
     time_step_mya = 1.0,
     seed = 42
 )
